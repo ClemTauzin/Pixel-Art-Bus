@@ -1,0 +1,116 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.animationContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  border: 5px solid blue;
+  background: url("img/backgound animation.png");
+  background-size: cover;
+}
+
+@keyframes travelling {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 50%;
+  }
+}
+.bus {
+  position: absolute;
+  width: 20rem;
+  bottom: 3.5rem;
+}
+
+.bulle {
+  position: absolute;
+  bottom: 8rem;
+  fill: rgb(51, 43, 43);
+}
+
+.head {
+  width: 5rem;
+}
+
+.sideBusLeft, .sideBusRight, .retroviseur {
+  fill: rgb(51, 122, 214);
+}
+
+.sideWindowsLeft, .sideWindowsRight {
+  fill: grey;
+}
+
+.frontBus, .sideBusBoot {
+  fill: rgb(27, 70, 110);
+}
+
+.frontSign {
+  fill: antiquewhite;
+}
+
+.frontWindowReflection {
+  fill: azure;
+  border: none;
+}
+
+.frontCache, .sideLight {
+  fill: orange;
+}
+
+.tire {
+  fill: grey;
+}
+
+.face {
+  fill: rgb(231, 192, 199);
+}
+
+.hair {
+  fill: rgb(179, 85, 9);
+}
+
+.smile {
+  fill: aliceblue;
+}
+
+.buttonContainer {
+  background-color: aqua;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.buttonBackground {
+  background-color: rgb(119, 119, 248);
+}
+
+.buttonClick {
+  background-color: transparent;
+  color: black;
+  border: none;
+  z-index: 1;
+}
+.buttonClick::after {
+  content: "";
+  background-color: red;
+  width: 10px;
+  height: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
