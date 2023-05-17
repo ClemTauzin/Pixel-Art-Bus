@@ -27,16 +27,7 @@
   position: absolute;
   width: 20rem;
   bottom: 3.5rem;
-}
-
-.bulle {
-  position: absolute;
-  bottom: 8rem;
-  fill: rgb(51, 43, 43);
-}
-
-.head {
-  width: 5rem;
+  transition: bottom 800ms ease, transform 500ms ease;
 }
 
 .sideBusLeft, .sideBusRight, .retroviseur {
@@ -78,6 +69,16 @@
 
 .smile {
   fill: aliceblue;
+}
+
+.head {
+  width: 5rem;
+}
+
+.bulle {
+  position: absolute;
+  bottom: 8rem;
+  fill: rgb(51, 43, 43);
 }
 
 .buttonContainer {

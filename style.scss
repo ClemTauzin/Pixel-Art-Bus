@@ -22,51 +22,63 @@
 }
 
 
-.bus{
+.bus {
     position: absolute;
     width: 20rem;
     bottom: 3.5rem;
-}
-.bulle{
+    transition: bottom 800ms ease, transform 500ms ease;
+  }
+  
+  .sideBusLeft, .sideBusRight, .retroviseur {
+    fill: rgb(51, 122, 214);
+  }
+  
+  .sideWindowsLeft, .sideWindowsRight {
+    fill: grey;
+  }
+  
+  .frontBus, .sideBusBoot {
+    fill: rgb(27, 70, 110);
+  }
+  
+  .frontSign {
+    fill: antiquewhite;
+  }
+  
+  .frontWindowReflection {
+    fill: azure;
+    border: none;
+  }
+  
+  .frontCache, .sideLight {
+    fill: orange;
+  }
+  
+  .tire {
+    fill: grey;
+  }
+  
+  .face {
+    fill: rgb(231, 192, 199);
+  }
+  
+  .hair {
+    fill: rgb(179, 85, 9);
+  }
+  
+  .smile {
+    fill: aliceblue;
+  }
+  
+  .head {
+    width: 5rem;
+  }
+  
+  .bulle {
     position: absolute;
     bottom: 8rem;
     fill: rgb(51, 43, 43);
-}
-.head{
-    width: 5rem;
-}
-
-.sideBusLeft, .sideBusRight, .retroviseur{
-    fill: rgb(51, 122, 214);
-}
-.sideWindowsLeft, .sideWindowsRight{
-    fill:grey
-}
-.frontBus, .sideBusBoot{
-    fill: rgb(27, 70, 110);
-}
-.frontSign{
-    fill: antiquewhite;
-}
-.frontWindowReflection{
-    fill: azure;
-    border: none;
-}
-.frontCache, .sideLight{
-    fill: orange
-}
-.tire{
-    fill: grey;
-}
-.face{
-    fill: rgb(231, 192, 199);
-}
-.hair{
-    fill:rgb(179, 85, 9)
-}
-.smile{
-    fill: aliceblue;
-}
+  }
 
 
 // ---------------------------------------------------------
